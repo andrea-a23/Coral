@@ -1,0 +1,235 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;500;600&family=Mulish:wght@300;400;500;600&display=swap');
+:root{
+--color-azul-boton: #0069d9';
+--color-azul-oscuro: #007bff';
+--color-negro: #212529';
+--color-contenido: #6c757d';
+--color-bg-claro: #f8f9fa';
+--color-bg-oscuro: #343a40';
+
+}
+body{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: var(--color-contenido); 
+}
+.header-area.sticky {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+	width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+.header-area.sticky .navbar-default{
+	background-color: #884bdf;
+}
+
+
+h1,h2,h3,h4,h5,h6{
+	font-family: 'Catamaran', sans-serif;
+}
+
+#hero{
+	background-image: url("../Coral/bg-hero.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 100vh;
+	text-align: center;
+	color: #fff;
+	
+	
+}
+
+.overlay-hero{
+	background-color: rgba(0,0,0,0.45);
+	width: 100% ;
+	height: 100%;
+	padding-top: 15%;
+}
+
+#hero h5{
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: 400px;
+}
+
+#hero h2{
+	font-size: 4em;
+	font-weight: 300px;
+	
+}
+
+#hero h3{
+	font-size: 16px;
+	font-weight: 400px;
+	margin-bottom: 5%;
+}
+
+.hero-info{
+	width: 60%;
+	margin:auto;
+}
+
+.btn-primary{
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+#latest .title2{
+	font-weight: 600;
+	color: #303132;
+	font-size: 50px;
+}
+
+#latest .subtitle{
+	text-align: left;
+	font-size: 20px;
+
+}
+
+#latest{
+		padding-top: 15%;
+	background-color: #E7E7E7
+}
+
+#latest .btn{
+	border-radius: 40px;
+}
+
+#services{
+	text-align:center;
+	padding: 8%;
+	background-color: #FFFFFF;	
+}
+
+#services .h1{
+	text-align: center;
+	color:black
+}
+
+#services .h5{
+	text-align: center;
+	color: black
+}
+
+#services h1{
+	text-align: center
+}
+
+#about h2{
+	font-size: 40px;
+	margin-left: 30px;
+	font-weight: 300;
+}
+
+#about p{
+	margin: 50px;
+	font-size: 15px;
+	margin-left: 30px;
+}
+#about h5{
+	margin-left: 80px;
+	font-size: 17px;
+}
+#about h1{
+	font-size: 40px;
+	margin-top: 30px;
+	font-weight: 300;
+}
+
+#contact-form{
+	text-align: center;
+	padding: 5%;
+}
+
+#contact-form h2{
+	font-weight: 600;
+	color: #303132;
+	font-size: 50px;
+}
+
+#contact-form h3{
+	font-weight: 600;
+	color: #6c757d;
+	font-size: 20px;
+}
+#contact-form .row-primary{
+	margin-left: 10%;
+}
+#contact-form input,
+#contact-form textarea{
+	border-radius: 0;
+	padding: 25px 10px;
+}
+
+.hero-info{
+	width: 60%;
+	margin: auto;
+}
+
+.btn-primary{
+	padding: 15px 40px;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.titulo{
+	color: #00000;
+	font-size: 3.5em;
+	text-align: center;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+
+.subtitulo{
+	color:#00000; 
+	font-size: 1.3em;
+	font-weight: 300;
+	text-align: center;
+	color: #827979;
+	margin-bottom: 5%;
+	
+}
+
+.section{
+	padding: 7% 0;
+}
+
+#features p{
+	color: #000000;
+	font-size: 16px;
+}
+
+#features{
+	text-align: center;
+	
+}
+
+#features i{
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	background-color: #DFDFDF;
+	border-radius: 100%;
+	color: var(--color-azul-oscuro);
+	font-size: 3em;
+	margin-bottom: 7%;
+	
+}
+
+#features i:hover{
+	background-color: var(--color-azul-oscuro);
+	color: #fff;
+}
+
+#features h4{
+	font-size: 1.3em;
+	font-weight: 500;
+}
+
